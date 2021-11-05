@@ -35,6 +35,6 @@ Disallow: /wp-json/
 Disallow: */?post_type=stati
 Disallow: /xmlrpc.php
 Disallow: /?p*
-Host: https://cashzz-playz-avtomatyz.azurewebsites.net
+Host: https://cashzz-playzz-avtomatyz.azurewebsites.net
 
-Sitemap: https://cashzz-playz-avtomatyz.azurewebsites.net/sitemap.xml
+Sitemap: https://cashzz-playzz-avtomatyz.azurewebsites.net/sitemap.xml

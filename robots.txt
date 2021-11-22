@@ -35,6 +35,8 @@ Disallow: /wp-json/
 Disallow: */?post_type=stati
 Disallow: /xmlrpc.php
 Disallow: /?p*
+Disallow: /fruit-cocktail/
+Disallow: /index.php/
 Host: https://cashzz-playzz-avtomatyzz.azurewebsites.net
 
 Sitemap: https://cashzz-playzz-avtomatyzz.azurewebsites.net/sitemap.xml

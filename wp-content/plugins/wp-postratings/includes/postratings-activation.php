@@ -60,7 +60,7 @@ function ratings_activate() {
 	add_option('postratings_max', '5' );
 	add_option('postratings_template_vote', '%RATINGS_IMAGES_VOTE% (<strong>%RATINGS_USERS%</strong> '.__('votes', 'wp-postratings').__(',', 'wp-postratings').' '.__('average', 'wp-postratings').': <strong>%RATINGS_AVERAGE%</strong> '.__('out of', 'wp-postratings').' %RATINGS_MAX%)<br />%RATINGS_TEXT%' );
 	add_option('postratings_template_text', '%RATINGS_IMAGES% (<em><strong>%RATINGS_USERS%</strong> '.__('votes', 'wp-postratings').__(',', 'wp-postratings').' '.__('average', 'wp-postratings').': <strong>%RATINGS_AVERAGE%</strong> '.__('out of', 'wp-postratings').' %RATINGS_MAX%'.__(',', 'wp-postratings').' <strong>'.__('rated', 'wp-postratings').'</strong></em>)' );
-	add_option('postratings_template_none', '%RATINGS_IMAGES_VOTE% ('.__('No Ratings Yet', 'wp-postratings').')<br />%RATINGS_TEXT%' );
+	//add_option('postratings_template_none', '%RATINGS_IMAGES_VOTE% ('.__('No Ratings Yet', 'wp-postratings').')<br />%RATINGS_TEXT%' );
 	// Database Upgrade For WP-PostRatings 1.02
 	add_option('postratings_logging_method', '3' );
 	add_option('postratings_allowtorate', '2' );
